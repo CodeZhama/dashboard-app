@@ -1,0 +1,111 @@
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: var(--dark-blue);
+  cursor: pointer;
+  transition: 0.1s linear;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+.icon-md {
+  width: 20px;
+  height: 20px;
+}
+.icon-notification {
+  mask-image: url("../icons/notification.svg");
+  -webkit-mask-image: url("../icons/notification.svg");
+}
+.icon-search {
+  mask-image: url("../icons/search.svg");
+  -webkit-mask-image: url("../icons/search.svg");
+}
+.icon-arrow-buttom {
+  mask-image: url("../icons/arrow-bottom.svg");
+  -webkit-mask-image: url("../icons/arrow-bottom.svg");
+}
+.icon-overview {
+  mask-image: url("../icons/overview.svg");
+  -webkit-mask-image: url("../icons/overview.svg");
+}
+
+.icon-pages {
+  mask-image: url("../icons/pages.svg");
+  -webkit-mask-image: url("../icons/pages.svg");
+}
+
+.icon-sales {
+  mask-image: url("../icons/shopping.svg");
+  -webkit-mask-image: url("../icons/shopping.svg");
+}
+.icon-message {
+  mask-image: url("../icons/massage.svg");
+  -webkit-mask-image: url("../icons/massage.svg");
+}
+
+.icon-authentication {
+  mask-image: url("../icons/login.svg");
+  -webkit-mask-image: url("../icons/login.svg");
+}
+
+.icon-docs {
+  mask-image: url("../icons/docs.svg");
+  -webkit-mask-image: url("../icons/docs.svg");
+}
+
+.icon-components {
+  mask-image: url("../icons/collection.svg");
+  -webkit-mask-image: url("../icons/collection.svg");
+}
+
+.icon-help {
+  mask-image: url("../icons/help.svg");
+  -webkit-mask-image: url("../icons/help.svg");
+}
+
+.icon-sales-warning {
+  mask-image: url("../icons/exclamation-circle.svg");
+  -webkit-mask-image: url("../icons/exclamation-circle.svg");
+}
+.icon-facebook {
+  mask-image: url("../icons/facebook-f.svg");
+  -webkit-mask-image: url("../icons/facebook-f.svg");
+}
+.icon-twitter {
+  mask-image: url("../icons/twitter.svg");
+  -webkit-mask-image: url("../icons/twitter.svg");
+}
+
+.icon-github {
+  mask-image: url("../icons/github.svg");
+  -webkit-mask-image: url("../icons/github.svg");
+}
+
+.icon-dribble {
+  mask-image: url("../icons/dribbble.svg");
+  -webkit-mask-image: url("../icons/dribbble.svg");
+}
+.icon-adjustments {
+  mask-image: url("../icons/adjustments.svg");
+  -webkit-mask-image: url("../icons/adjustments.svg");
+}
+.icon-setting {
+  mask-image: url("../icons/settings.svg");
+  -webkit-mask-image: url("../icons/settings.svg");
+}
+.icon-globe {
+  mask-image: url("../icons/globe.svg");
+  -webkit-mask-image: url("../icons/globe.svg");
+}
+.icon-logout {
+  mask-image: url("../icons/login.svg");
+  -webkit-mask-image: url("../icons/login.svg");
+}
+.icon-menu-bar {
+  mask-image: url("../icons/menu-alt-1.svg");
+  -webkit-mask-image: url("../icons/menu-alt-1.svg");
+}
