@@ -54,7 +54,7 @@ const StyleFooter = styled.div`
   @media (max-width:465px) {
   .left{
     p{
-      font-size: 13px;
+      font-size: 12px;
     }
   }
   }

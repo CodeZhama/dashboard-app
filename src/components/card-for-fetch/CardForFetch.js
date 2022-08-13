@@ -289,11 +289,12 @@ const StyleCard = styled.div`
              .res{
               display: none;
              }
-             .name__tr{
+             .name_tr{
                 font-size: 12px;
-                font-weight: 600;
+                font-weight: 400;
                 line-height: 18px;
                 letter-spacing: 0em;
+               
              }
            }
   } 
