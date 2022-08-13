@@ -9,6 +9,9 @@ export default function PageNotFound() {
     <StylePageNotFound>
       <div className="pagent__navbar">
         <div className="left">
+          <div className="menu__bar">
+            <i className="icon icon-menu-bar" />
+          </div>
           <div className="logo__img">
             <img src={Logo} alt="logo" />
           </div>
@@ -20,6 +23,7 @@ export default function PageNotFound() {
             <li>Calendar </li>
           </ul>
         </div>
+
         <div className="right">
           <i className="icon icon-logout" />
           <p>Login/Register </p>
@@ -57,10 +61,14 @@ const StylePageNotFound = styled.div`
     padding: 16px 20px;
     background-color: var(--light);
     border-bottom: 1px solid var(--border-color);
+
     .left {
       display: flex;
       align-items: center;
       gap: 32px;
+      .menu__bar {
+        display: none;
+      }
       ul {
         display: flex;
         align-self: center;
@@ -89,6 +97,21 @@ const StylePageNotFound = styled.div`
         font-weight: 500;
         line-height: 21px;
         letter-spacing: 0em;
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    .pagent__navbar {
+      .left {
+        .menu__bar {
+          display: block;
+        }
+        .logo__img {
+          display: none;
+        }
+        ul {
+          display: none;
+        }
       }
     }
   }
@@ -135,6 +158,37 @@ const StyleContent = styled.div`
         color: var(--light);
         border: none;
         cursor: pointer;
+      }
+    }
+  }
+  @media (max-width: 576px) {
+    .image {
+      margin-top: 84px;
+      width: 400px;
+    }
+    .text {
+      margin-top: 84px;
+      h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+      }
+      p {
+        max-width: 328px;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    .image {
+      width: 340px;
+    }
+    .text {
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
       }
     }
   }

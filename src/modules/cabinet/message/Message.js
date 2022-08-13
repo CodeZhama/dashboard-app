@@ -54,7 +54,7 @@ export default function Message() {
           {message.map((item) => {
             const { id, age, phone, name, kasbi } = item;
             return (
-              <div className="message__item" key={id} onClick={()=>moreInfoMessage(id)}>
+              <div className="message__item" key={id}>
                 <div className="name__Checkbox">
                   <input type="checkbox" />
                   <div className="name">{name}</div>
