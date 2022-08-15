@@ -109,3 +109,7 @@
   mask-image: url("../icons/menu-alt-1.svg");
   -webkit-mask-image: url("../icons/menu-alt-1.svg");
 }
+.icon-close {
+  mask-image: url("../icons/close.svg");
+  -webkit-mask-image: url("../icons/close.svg");
+}

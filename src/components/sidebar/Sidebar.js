@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 ///
 
 import list from "./static";
+import SettingsButton from "../settings-buttons";
 ///
 export default function Sidebar() {
   const navigate = useNavigate();
@@ -52,20 +53,7 @@ export default function Sidebar() {
         })}
       </ul>
 
-      <ul className="functions">
-        <li className="functions__li">
-          <i className="icon icon-docs" />
-          <p>Docs</p>
-        </li>
-        <li className="functions__li">
-          <i className="icon icon-components" />
-          <p>Components</p>
-        </li>
-        <li className="functions__li">
-          <i className="icon icon-help" />
-          <p>Help</p>
-        </li>
-      </ul>
+      <SettingsButton />
 
       <div className="footer">
         <div className="footer__items">
@@ -118,20 +106,6 @@ const StyleSideBar = styled.div`
           transform: rotate(180deg);
         }
       }
-    }
-  }
-
-  .functions {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    padding: 16px 13px;
-    margin-top: 24px;
-    &__li {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      cursor: pointer;
     }
   }
 
